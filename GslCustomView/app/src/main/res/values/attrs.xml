@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ItemAnimatableLayout">
+        <attr name="columns" format="integer" />
+        <attr name="lines" format="integer" />
+        <attr name="hSpacing" format="dimension" />
+        <attr name="vSpacing" format="dimension" />
+        <attr name="item_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="center_vertical" value="1" />
+            <enum name="center_horizontal" value="2" />
+        </attr>
+
+        <attr name="item_align_parent_left" format="boolean" />
+        <attr name="item_align_parent_right" format="boolean" />
+        <attr name="item_align_parent_top" format="boolean" />
+        <attr name="item_align_parent_bottom" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientColor">
+        <attr name="startColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GslCustomView</string>
+
+    <!-- tag key -->
+    <item type="id" name="tag_position"/>
+    <item type="id" name="tag_viewHolder"/>
+    <item type="id" name="tag_recycler_item_position"/>
+</resources>
